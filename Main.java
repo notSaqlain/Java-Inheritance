@@ -1,5 +1,5 @@
 public class Main {
-    public Main(String[] args) {
+    public static void main(String[] args) {
         Garage garage = new Garage(10);
 
         Moto moto1 = new Moto("Yamaha", "MT-07");
@@ -9,6 +9,7 @@ public class Main {
         garage.addVeicolo(auto1);
 
         System.out.println(garage);
+        
 
         System.out.println("Uscita dal programma");
     }
